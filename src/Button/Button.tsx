@@ -44,7 +44,7 @@ export type ButtonProps = TouchableOpacityProps &
     titleStyle?: StyleProp<TextStyle>;
 
     /** Add additional props for Text component. */
-    titleProps?: TextProps;
+    titlePropsElement?: TextProps;
 
     /** Add additional styling for button component. */
     buttonStyle?: StyleProp<ViewStyle>;
